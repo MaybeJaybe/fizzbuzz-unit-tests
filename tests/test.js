@@ -24,7 +24,7 @@ test('fizzyBuzzy', () => {
   expect(fb.fizzyBuzzy(15)).toBe('fizzbuzz');
 });
 // challenge 5
-test('', () => {
+test('fizzbuzzCount', () => {
   expect(fb.fizzBuzz(3)).toEqual({count: 3, fizz: 1, buzz: 0, fizzBuzz: 0});
   expect(fb.fizzBuzz(5)).toEqual({count: 5, fizz: 1, buzz: 1, fizzBuzz: 0});
   expect(fb.fizzBuzz(15)).toEqual({count: 15, fizz: 4, buzz: 2, fizzBuzz: 1});
